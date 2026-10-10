@@ -7,7 +7,7 @@ import { renderToDOM } from './core/render-to-dom.js';
 const VApp = createElement('main',
   { id: 'root-view', role: 'main' },
   createElement('header', { className: 'hero' },
-    createElement('h1', null, 'Mini React Engine'),
+    createElement('h2', null, 'Mini React Engine'),
     createElement('p', null, '<img onerror=alert(1)> Safe Text'),
     createElement('button', { onClick: () => console.log('Ping') }, 'Click')
   )
